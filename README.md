@@ -118,8 +118,7 @@
 gomla-market-sales-analysis/
 │
 ├── Data/
-├── SQL/
-├── Python/
-├── Power BI/
+├── Python Code.ipynb
+├── Dashboard.pbix
 └── README.md
 ```
