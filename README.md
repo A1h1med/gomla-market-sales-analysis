@@ -66,4 +66,60 @@
 
 ### 4️⃣ Invoices & Customer Details
 
-الصفحة دي مختلفة شوية، لأن كان هد
+الصفحة دي مختلفة شوية، لأن كان هدفي إني أعرض الـInvoice بشكل قريب من شكل الفاتورة الطبيعي.
+
+عملت Filters أقدر من خلالها أحدد:
+
+* اسم العميل.
+* رقم الـOrder.
+
+وكمان استخدمت **Drill Through** علشان أقدر أنتقل من الـInvoice لصفحة فيها تفاصيل أكتر عن العميل.
+
+في صفحة تفاصيل العميل قدرت أعرض معلومات زي:
+
+* العميل معانا بقاله كام سنة.
+* انضم لينا من إمتى.
+* عمل كام Order.
+* حقق Revenue قد إيه.
+* Customer Rank حسب إجمالي الإنفاق.
+* أكتر Category العميل مهتم بيها.
+* أكتر يوم في الأسبوع بيصرف فيه.
+* وغيرها من التفاصيل اللي بتوضح سلوك العميل.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **SQL** — Data Analysis & Querying
+* **Python / Pandas** — Data Cleaning & Preparation
+* **Power BI** — Data Visualization & Dashboard
+* **DAX** — Measures & Calculations
+
+---
+
+## 🎯 Project Goal
+
+الفكرة الأساسية من المشروع كانت إني ما أكتفيش بعرض الأرقام والـCharts، لكن أحاول أفهم:
+
+* إيه اللي بيحصل في المبيعات؟
+* هل المبيعات بتتحسن مع الوقت؟
+* أنهي Categories وProducts بيساهموا بشكل أكبر في الـRevenue؟
+* مين أهم العملاء؟
+* العملاء بيصرفوا إزاي؟
+* وهل في Patterns معينة في سلوك الـCustomers والـSales؟
+
+في النهاية، الهدف كان تحويل الـdata لـ **clear and meaningful insights** تساعد في فهم أداء الـbusiness واتخاذ قرارات أفضل.
+
+---
+
+## 📁 Project Structure
+
+```text
+gomla-market-sales-analysis/
+│
+├── Data/
+├── SQL/
+├── Python/
+├── Power BI/
+└── README.md
+```
